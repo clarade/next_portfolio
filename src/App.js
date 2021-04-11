@@ -1,16 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Counter from './Counter.jsx';
-import Navigation from './Navigation.jsx';
-
+import "./App.css";
+import Nav from "./Nav.jsx";
 
 function App() {
-  return (
-    <>
-    <Counter/>
-    <Navigation/>
-    </>
-  );
+    return (
+        <>
+            <Nav />
+        </>
+    );
 }
 
 export default App;
